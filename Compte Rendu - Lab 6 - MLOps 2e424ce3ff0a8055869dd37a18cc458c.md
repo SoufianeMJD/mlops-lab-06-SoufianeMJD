@@ -4,10 +4,6 @@ Soufiane MAJDALANE
 
 # **Déploiement K8s d’un système MLOps Churn**
 
-## Installer Kubectl minikube
-
-![image.png](image.png)
-
 ## **Étape 1 : Préparer l’environnement Kubernetes**
 
 **Démarrage Minikube**
@@ -262,11 +258,3 @@ churn-api-5b7bb7f59-d4hz8   1/1     Running   0          32m
 **Exécution de la détection de drift dans le Pod :**
 
 ![image.png](image%2058.png)
-
-**Félicitations !**
-Si cette étape passe, tu as terminé le Lab MLOps 01 avec succès. Tu as :
-
-1. Conteneurisé une API IA.
-2. Déployé sur Kubernetes (Minikube).
-3. Configuré la persistance (PVC), la sécurité (NetworkPolicy) et la configuration (ConfigMap/Secret).
-4. Mis en place des sondes de santé (Probes).
